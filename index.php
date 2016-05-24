@@ -243,7 +243,7 @@ class User
 
         $this->id = $id;
         $this->name = $params[0];
-        $this->balance = $params[1];
+        $this->balance = floatval($params[1]);
     }
 
 }
